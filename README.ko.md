@@ -2,7 +2,7 @@
 
 [English](./README.md) | [한국어](./README.ko.md)
 
-![Version](https://img.shields.io/badge/version-0.0.2-333333?style=flat-square)
+![Version](https://img.shields.io/badge/version-v0.0.3-333333?style=flat-square)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-yellow.svg)](./LICENSE)
 
 바로가기: [사용 흐름](#기본-사용-흐름) |
@@ -188,6 +188,7 @@ $gpt-image-slide-render
 ## 포함된 파일
 
 - `skills/slide-design/SKILL.md`
+- `skills/gpt-image-slide/SKILL.md`
 - `skills/gpt-image-slide-plan/SKILL.md`
 - `skills/gpt-image-slide-prompt/SKILL.md`
 - `skills/gpt-image-slide-render/SKILL.md`
@@ -231,6 +232,7 @@ future-slide-skill 저장소에서 tightened-slide 스킬을 설치해줘.
 ```bash
 mkdir -p ~/.codex/skills
 cp -R skills/slide-design ~/.codex/skills/
+cp -R skills/gpt-image-slide ~/.codex/skills/
 cp -R skills/gpt-image-slide-plan ~/.codex/skills/
 cp -R skills/gpt-image-slide-prompt ~/.codex/skills/
 cp -R skills/gpt-image-slide-render ~/.codex/skills/

@@ -2,7 +2,7 @@
 
 [English](./README.md) | [한국어](./README.ko.md)
 
-![Version](https://img.shields.io/badge/version-0.0.2-333333?style=flat-square)
+![Version](https://img.shields.io/badge/version-v0.0.3-333333?style=flat-square)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-yellow.svg)](./LICENSE)
 
 Navigation: [Workflow](#recommended-workflow) |
@@ -264,6 +264,7 @@ $gpt-image-slide-render
 
 This bundle includes:
 - `skills/slide-design/SKILL.md`
+- `skills/gpt-image-slide/SKILL.md`
 - `skills/gpt-image-slide-plan/SKILL.md`
 - `skills/gpt-image-slide-prompt/SKILL.md`
 - `skills/gpt-image-slide-render/SKILL.md`
@@ -327,6 +328,7 @@ Codex skills directory:
 ```bash
 mkdir -p ~/.codex/skills
 cp -R skills/slide-design ~/.codex/skills/
+cp -R skills/gpt-image-slide ~/.codex/skills/
 cp -R skills/gpt-image-slide-plan ~/.codex/skills/
 cp -R skills/gpt-image-slide-prompt ~/.codex/skills/
 cp -R skills/gpt-image-slide-render ~/.codex/skills/
